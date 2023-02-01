@@ -23,4 +23,5 @@ resource "google_secret_manager_secret" "your-secret-name" {
   replication {
     automatic = true
   }
-  secret_file = "${path.module}/secrets.
+  secret_file = "${path.module}/secrets"
+}

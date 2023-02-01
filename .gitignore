@@ -1,0 +1,15 @@
+# .gitignore
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Docker image files
+*.tar
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Secret Manager secrets files
+secrets.auto.tfvars
